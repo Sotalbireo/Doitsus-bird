@@ -4,6 +4,8 @@ function doitu() {
     doitunotori= _.range(words.length),
     i= 0;
 
+    $("pre").empty();
+
   do
   {
     var bakatare= _.sample(words);
