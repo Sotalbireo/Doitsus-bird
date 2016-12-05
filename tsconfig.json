@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+        "jsx": "preserve",
+        "lib": [
+            "dom",
+            "es2017"
+        ],
+        "listFiles": true,
+        "module": "amd",
+        "moduleResolution": "node",
+        "noEmitOnError": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "outDir": "js/",
+        "preserveConstEnums": true,
+        "pretty": true,
+        "removeComments": true,
+        "strictNullChecks": true,
+        "sourceMap": false,
+        "target": "es5"
+    },
+    "include": [
+        "ts/*.ts"
+    ],
+
+    "exclude": [
+        "node_modules"
+    ]
+}
